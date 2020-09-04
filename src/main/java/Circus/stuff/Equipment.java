@@ -1,4 +1,9 @@
-public abstract class Equipment {
+package Circus.stuff;
+
+import Circus.Circus;
+import Circus.animal.Asset;
+
+public abstract class Equipment implements Asset {
     protected int purchasePrice;
 
     public Equipment(int purchasePrice) {
